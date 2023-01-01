@@ -1,9 +1,13 @@
 import React from 'react';
+import Header from './Components/Header'
+import Main from './Pages/Main';
+import Button from './Components/Button'
 
 export default function App() {
   return (
     <>
-      <h1>TESTE</h1>
+      <Header />
+      <Main />
     </>
   );
 }

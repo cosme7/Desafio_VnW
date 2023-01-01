@@ -1,0 +1,36 @@
+.h--container{
+    max-width: 90%;
+    padding-block: 1rem;
+    margin-inline: auto;
+    background-color: var(--bg-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        width: 20%;
+    }
+
+    nav{
+        width: 45%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    ul{
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+
+    a{
+        font-size: clamp(0.75rem, 1.2vw, 1.5rem);
+        font-family: var(--ff-primary);
+        font-weight: var(--fw-700);
+        color: var(--clr-blue);
+        text-decoration: none;
+    }
+}

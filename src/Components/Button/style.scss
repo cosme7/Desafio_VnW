@@ -1,0 +1,30 @@
+button{
+    padding: .9em 2em;
+    border-radius: 50px;
+
+    font-size: 1rem;
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-700);
+
+    background-color: var(--bg-blue);
+    color: var(--clr-light-100);
+
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 4px;
+    border: none;
+}
+
+.inverted{
+    background-color: var(--bg-light);
+    color: var(--clr-blue);
+}
+
+.border_light{
+    outline: 1px solid var(--bg-light);
+}
+
+.border_accent{
+    outline: 1px solid var(--bg-blue);
+}
+
