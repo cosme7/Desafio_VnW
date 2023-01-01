@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    &::before, &::after{
+        box-sizing: border-box;
+    }
+}
+
+:root{
+    // Font-Family
+    --ff-primary: 'Montserrat', sans-serif;
+    // Font-Weight
+    --fw-700: 700;
+    --fw-500: 500;
+    --fw-400: 400;
+    --fw-300: 300;
+    // background-Color
+    --bg-light: #FFFFFF;
+    --bg-blue: #005BD5;
+    --bg-transp: transparent;
+    --bg-gradient: linear-gradient(to bottom, #005BD5, #002E6B);
+    // Font-Color
+    --clr-light-500: #8B8B8B;
+    --clr-light-100: #FFFFFF;
+    --clr-blue: #005BD5;
+}
+
+
+/* Set core body defaults */
+body{
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+
+    /* Make images easier to work with */
+    img, picture{
+        max-width: 100%;
+        display: block;
+    }
+}
