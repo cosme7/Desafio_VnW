@@ -1,0 +1,15 @@
+input{
+    width: 29%;
+    height: 40px;
+    padding-inline-start: 1rem;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-family: var(--ff-primary);
+    border: none;
+    outline: none;
+
+    &::placeholder{
+        font-size: 1.1rem;
+        font-family: var(--ff-primary);
+    }
+}

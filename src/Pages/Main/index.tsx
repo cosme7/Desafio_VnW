@@ -10,7 +10,7 @@ export default function Main() {
         <section className='hero--container'>
           <div className='hero_txt'>
             <h1>Para qual estado você deseja ir?</h1>
-            <Input name='name' type='text' placeholder='Buscar'/>
+            <Input name='name' type='text' placeholder='Pesquisar'/>
             <Button title='Buscar' />
           </div>
         </section>
