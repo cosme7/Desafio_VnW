@@ -1,4 +1,3 @@
-import React from 'react'
 import { IInputProps } from './types'
 import './style.scss'
 

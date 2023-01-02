@@ -1,4 +1,3 @@
-import React from 'react'
 import { IPlacesProps } from './types'
 import './style.scss'
 

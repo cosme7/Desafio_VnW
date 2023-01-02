@@ -1,0 +1,30 @@
+.card_mural{
+    padding: 2rem 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--bg-light-400);
+
+    img{
+        width: 120px;
+    }
+
+    p{
+        max-width: 10ch;
+        line-height: 1.1;
+        font-size: clamp(0.75rem, 1.3vw, 1.8rem);
+        color: var(--clr-blue);
+        text-align: center;
+    }
+}
+
+.card_mural--inverted{
+    background-color: var(--bg-blue);
+
+    p{
+        max-width: 15ch;
+        color: var(--clr-light-100);
+    }
+}
