@@ -2,7 +2,7 @@ button{
     padding: .9em 2.5em;
     border-radius: 50px;
 
-    font-size: 1rem;
+    font-size: clamp(0.75rem, 1vw, 1.2rem);
     font-family: var(--ff-primary);
     font-weight: var(--fw-700);
 

@@ -12,6 +12,7 @@
     // Font-Family
     --ff-primary: 'Montserrat', sans-serif;
     // Font-Weight
+    --fw-900: 900;
     --fw-700: 700;
     --fw-500: 500;
     --fw-400: 400;
@@ -20,7 +21,8 @@
     --bg-light: #FFFFFF;
     --bg-blue: #005BD5;
     --bg-transp: transparent;
-    --bg-gradient: linear-gradient(to bottom, #005BD5, #002E6B);
+    --bg-gradient: transparent linear-gradient(180deg, #005BD5 0%, #002E6B 100%) 0% 0% no-repeat padding-box;
+    --bg-gradient-txt: linear-gradient(to right, #AFB3B8, black);
     // Font-Color
     --clr-light-500: #8B8B8B;
     --clr-light-100: #FFFFFF;

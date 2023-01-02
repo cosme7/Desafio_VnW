@@ -25,3 +25,29 @@
         }
     }
 }
+
+.viagens--primary{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--bg-gradient);
+
+    img{
+        width: 100%;
+    }
+}
+
+.viagens--inverted{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    background: var(--bg-light);
+
+    img{
+        width: 100%;
+    }
+}
+
+.place--container{
+    display: flex;
+}

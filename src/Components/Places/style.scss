@@ -1,0 +1,36 @@
+.places_box{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+
+    img, p{
+        grid-area: 1 / 1;
+    }
+
+    p{
+        padding: .5em 1.5em;
+        border-radius: 50px;
+        font-size: clamp(0.75rem, 1vw, 1.2rem);
+        font-family: var(--ff-primary);
+        font-weight: var(--fw-500);
+        color: var(--clr-light-100);
+        border: 1px solid var(--bg-light);
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        position: relative;
+        isolation: isolate;
+        overflow: hidden;
+    }
+
+    p::before{
+        content: '';
+        border-radius: 50px;
+        position: absolute;
+        z-index: -1;
+        inset: 0;
+        filter: blur(15px);
+        background: var(--bg-gradient-txt);
+        opacity: .8;
+    }
+}
