@@ -4,23 +4,24 @@ import Input from '../../Components/Input'
 import Text from '../../Components/Text'
 import Places from '../../Components/Places'
 import Card from '../../Components/Card'
-// 
+import Form from '../../Components/Form'
+// Second Container
 import Clima from '../../Assets/main_01.png'
 import Amigos from '../../Assets/main_02.png'
 import Exp from '../../Assets/main_03.png'
-// 
+// Third Container
 import Rio from '../../Assets/main_04-1.png'
 import Ostras from '../../Assets/main_04-2.png'
 import Caldas from '../../Assets/main_04-3.png'
 import Amazon from '../../Assets/main_04-4.png'
-// 
+// Fourth Container
 import Son from '../../Assets/main_05-1.png'
 import Jump from '../../Assets/main_05-2.png'
 import Dog from '../../Assets/main_05-3.png'
 import Montain from '../../Assets/main_05-4.png'
 import Bike from '../../Assets/main_05-5.png'
 import Friends from '../../Assets/main_05-6.png'
-// 
+// Box Card Image
 import Viagem from '../../Assets/main_06-1.svg'
 import City from '../../Assets/main_06-2.svg'
 import Coco from '../../Assets/main_06-3.svg'
@@ -88,6 +89,11 @@ export default function Main() {
             <Card className='card_mural' image={Coco} name='Pontos turísticos' />
             <Card className='card_mural card_mural--inverted' image={Restaurante} name='Restaurantes' />
           </div>
+        </section>
+
+        <section className="form-container">
+          <h2>Fale conosco</h2>
+          <Form />
         </section>
       </main>
     </>

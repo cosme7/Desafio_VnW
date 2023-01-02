@@ -1,15 +1,16 @@
 input{
     width: 29%;
     height: 40px;
+    height: clamp(30px, 5vh, 55px);
     padding-inline-start: 1rem;
     border-radius: 50px;
-    font-size: 1rem;
+    font-size: clamp(0.75rem, 1vw, 1.2rem);
     font-family: var(--ff-primary);
     border: none;
     outline: none;
 
     &::placeholder{
-        font-size: 1.1rem;
+        font-size: clamp(0.75rem, 1vw, 1.2rem);
         font-family: var(--ff-primary);
     }
 }
