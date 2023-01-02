@@ -1,3 +1,4 @@
+// Components
 import Button from '../../Components/Button'
 import Input from '../../Components/Input'
 import Text from '../../Components/Text'
@@ -41,29 +42,26 @@ export default function Main() {
 
         <section className='viagens--primary'>
           <img src={Clima} alt="Bebendo ao Pôr do Sol" />
-          <Text 
-            className='box_txt'
-            title='O clima perfeito, no lugar perfeito' 
-            sub='Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos não tem preço.' 
-          />
+          <Text className='box_txt'>
+            <h2>O clima perfeito, no lugar perfeito</h2>
+            <p>Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos não tem preço.</p>
+          </Text>
         </section>
 
         <section className='viagens--inverted'>
           <img src={Amigos} alt="Amigos ao Pôr do Sol" />
-          <Text 
-            className='box_txt box_txt--inverted'
-            title='Curta uma nova vibe entre amigos' 
-            sub='Rachando a conta ou rachando o bico, a melhor hora pra curtir é entre amigos. Conheça nossos Planos Multi.' 
-          />
+          <Text className='box_txt box_txt--inverted'>
+            <h2>Curta uma nova vibe entre amigos</h2>
+            <p>Rachando a conta ou rachando o bico, a melhor hora pra curtir é entre amigos. Conheça nossos <span>Planos Multi.</span></p>
+          </Text>
         </section>
 
         <section className='viagens--primary'>
           <img src={Exp} alt="Dando às mãos na água" />
-          <Text 
-            className='box_txt box_h2'
-            title='Algumas experiências são inexplicáveis' 
-            sub='Conheça as fontes termais de Caldas Novas, Goiás. Águas quentes, num clima sereno, relaxante e natural.' 
-          />
+          <Text className='box_txt box_h2'>
+            <h2>Algumas experiências são inexplicáveis</h2>
+            <p>Conheça as fontes termais de <span>Caldas Novas, Goiás</span>. Águas quentes, num clima sereno, relaxante e natural.</p>
+          </Text>
         </section>
 
         <section className="place--container">
@@ -74,7 +72,7 @@ export default function Main() {
         </section>
         
         <section className="mural--container">
-          <p>use a hashtag #brasilisverigudi</p>
+          <p className='mural-paragraph'>use a hashtag #brasilisverigudi</p>
           <h2>Nosso mural de Experiências</h2>
           <div className="mural_img">
             <img src={Son} alt="Brincando com o Filho" />

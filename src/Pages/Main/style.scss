@@ -58,7 +58,7 @@
     flex-direction: column;
     align-items: center;
 
-    p{
+    .mural-paragraph{
         font-size: clamp(1rem, 1.3vw, 1.8rem);
         font-family: var(--ff-primary);
         font-weight: var(--fw-700);

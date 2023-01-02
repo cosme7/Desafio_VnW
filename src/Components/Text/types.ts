@@ -1,5 +1,4 @@
 export interface ITextProps{
-    title: string;
-    sub: string;
+    children: React.ReactNode;
     className?: string;
 }
