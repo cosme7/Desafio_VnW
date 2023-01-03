@@ -14,13 +14,13 @@
     p{
         max-width: 10ch;
         line-height: 1.1;
-        font-size: clamp(0.75rem, 1.3vw, 1.8rem);
+        font-size: clamp(1rem, 1.3vw, 1.8rem);
         font-family: var(--ff-primary);
         font-weight: var(--fw-700);
         color: var(--clr-blue);
         text-align: center;
     }
-}
+};
 
 .card_mural--inverted{
     background-color: var(--bg-blue);
@@ -29,4 +29,4 @@
         max-width: 15ch;
         color: var(--clr-light-100);
     }
-}
+};

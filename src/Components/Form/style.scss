@@ -5,12 +5,8 @@
     align-items: center;
     gap: 1rem;
 
-    input{
-        width: 100%;
-    }
-
     textarea{
-        width: 100%;
+        width: clamp(300px, 27vw, 550px);
         padding: 1rem 0 0 1rem;
         border-radius: 20px;
         font-family: var(--ff-primary);
@@ -20,5 +16,5 @@
             font-size: clamp(0.75rem, 1vw, 1.2rem);
             font-family: var(--ff-primary);
         }
-    }
-}
+    };
+};

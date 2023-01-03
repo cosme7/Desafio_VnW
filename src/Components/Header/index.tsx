@@ -1,4 +1,5 @@
 import Button from '../Button'
+import Mobile from '../Mobile'
 import Logo from '../../Assets/logo_01.png'
 import './style.scss'
 
@@ -8,19 +9,20 @@ export default function Header() {
       <header>
         <section className='h--container'>
           <img src={Logo} alt="Logo" title='Logo' />
-          <nav aria-label='primary-navigation'>
+          <Mobile />
+          <nav aria-label='primary-navigation' className='nav_desktop'>
             <ul>
               <li>
-                <a href="#" target='_blank' >Sobre</a>
+                <a href="#sobre">Sobre</a>
               </li>
               <li>
-                <a href="#" target='_blank' >Benefícios</a>
+                <a href="#benefícios">Benefícios</a>
               </li>
               <li>
-                <a href="#" target='_blank' >Contato</a>
+                <a href="#contato">Contato</a>
               </li>
             </ul>
-            <Button title='Agendar'/>
+            <Button className='btn' title='Agendar'/>
           </nav>
         </section>
       </header>

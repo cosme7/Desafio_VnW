@@ -2,6 +2,7 @@
     padding-inline-start: 4rem;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 1rem;
     background-color: var(--bg-transp);
 
@@ -16,7 +17,7 @@
 
     p{
         max-width: 45ch;
-        font-size: clamp(1rem, 1.35vw, 1.7rem);
+        font-size: clamp(0.8rem, 1.35vw, 1.7rem);
         font-family: var(--ff-primary);
         font-weight: var(--fw-300);
         color: var(--clr-light-100);
@@ -24,13 +25,6 @@
 
     span{
         font-weight: var(--fw-700);
-    }
-
-    .btn_txt{
-        margin: 1rem auto 0 0;
-        background-color: var(--bg-transp);
-        color: var(--clr-light-100);
-        outline: 1px solid var(--bg-light);
     }
 
     .line{
@@ -46,21 +40,34 @@
         }
 
         .line_txt{
-            font-size: clamp(1rem, 1.2vw, 1.5rem);
+            font-size: clamp(0.65rem, 1.2vw, 1.5rem);
             font-family: var(--ff-primary);
             font-weight: var(--fw-400);
             color: var(--clr-light-100);
             text-transform: uppercase;
             letter-spacing: 4px;
         }
-    }
-}
+    };
+
+    @media screen and (max-width: 62.45em){
+        order: -1;
+        padding: 2rem 0.5rem 3rem;
+    };
+
+    @media screen and (max-width: 37.5em){
+        align-items: center;
+
+        h2, p{
+            text-align: center;
+        }
+    };
+};
 
 .box_h2{
     h2{
         max-width: 20ch;
     }
-}
+};
 
 .box_txt--inverted{
     order: -1;
@@ -74,11 +81,6 @@
         color: var(--clr-blue);
     }
 
-    .btn_txt{
-        color: var(--clr-blue);
-        outline: 1px solid var(--bg-blue);
-    }
-
     .line{
         hr{
             background-color: var(--bg-blue);
@@ -87,5 +89,9 @@
         .line_txt{
             color: var(--clr-blue);
         }
-    }
-}
+    };
+
+    @media screen and (max-width: 62.45em){
+        justify-self: initial;
+    };
+};

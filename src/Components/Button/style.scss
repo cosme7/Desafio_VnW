@@ -1,5 +1,5 @@
-button{
-    padding: .9em 2.5em;
+.btn{
+    padding: .6em 1.5em;
     border-radius: 50px;
 
     font-size: clamp(0.75rem, 1vw, 1.2rem);
@@ -16,15 +16,17 @@ button{
 }
 
 .btn_inverted{
-    background-color: var(--bg-light);
+    background-color: var(--bg-transp);
     color: var(--clr-blue);
 }
 
-.border_light{
+.btn_light{
     outline: 1px solid var(--bg-light);
+    color: var(--clr-light-100);
 }
 
-.border_accent{
+.btn_accent{
     outline: 1px solid var(--bg-blue);
+    color: var(--clr-blue);
 }
 

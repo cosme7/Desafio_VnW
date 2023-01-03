@@ -1,7 +1,7 @@
 .footer_box{
     display: flex;
     flex-direction: column;
-    row-gap: 1.2rem;
+    row-gap: clamp(0.4rem, .7vw, 1.1rem);
 
     img{
         width: 80%;
@@ -27,5 +27,5 @@
             color: var(--clr-blue);
             text-decoration: none;
         }
-    }
-}
+    };
+};

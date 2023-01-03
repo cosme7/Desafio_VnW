@@ -6,6 +6,10 @@
     display: flex;
     align-items: center;
 
+    @media screen and (max-width: 53.1em){
+        background-position-x: 70%;
+    }
+
     .hero_txt{
         width: 95%;
         min-height: 35vh;
@@ -23,37 +27,56 @@
             font-weight: var(--fw-700);
             color: var(--clr-blue);
         }
-    }
-}
+
+        @media screen and (max-width: 53.1em){
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 0 auto;
+
+            h1{
+                text-align: center
+            }
+        }
+    };
+};
 
 .viagens--primary{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     align-items: center;
     background: var(--bg-gradient);
 
     img{
         width: 100%;
     }
-}
+
+    @media screen and (max-width: 31.25em){
+        grid-template-columns: 1fr;
+    };
+};
 
 .viagens--inverted{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     align-items: center;
     background: var(--bg-light);
 
     img{
         width: 100%;
     }
-}
+
+    @media screen and (max-width: 31.25em){
+        grid-template-columns: 1fr;
+    };
+};
 
 .place--container{
-    display: flex;
-}
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+};
 
 .mural--container{
-    padding-block: 5rem 3rem;
+    padding: 5rem 0.5rem 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -75,22 +98,35 @@
         text-align: center;
     }
 
+    @media screen and (max-width: 31.25em){
+        padding: 2rem 0.5rem;
+    };
+
     .mural_img{
         width: 65%;
         padding-block: 3rem;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
-    }
+
+        @media screen and (max-width: 62.45em){
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        }
+
+        @media screen and (max-width: 31.25em){
+            width: 100%;
+            padding-block: 2rem;
+        }
+    };
 
     .mural_card{
         width: 64.5%;
         margin-inline: auto;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
         gap: 2rem;
-    }
-}
+    };
+};
 
 .form-container{
     padding: 5rem 0.5rem 4rem;
@@ -105,4 +141,8 @@
         font-weight: var(--fw-700);
         color: var(--clr-light-100);
     }
-}
+
+    @media screen and (max-width: 60em){
+        padding: 1.5rem 0.5rem;
+    };
+};

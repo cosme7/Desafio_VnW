@@ -33,19 +33,20 @@ export default function Main() {
   return (
     <>
       <main>
-        <section className='hero--container'>
+        <section className='hero--container' id='sobre'>
           <div className='hero_txt'>
             <h1>Para qual estado você deseja ir?</h1>
             <Input name='name' type='text' placeholder='Pesquisar'/>
-            <Button title='Buscar' />
+            <Button className='btn' title='Buscar' />
           </div>
         </section>
 
-        <section className='viagens--primary'>
+        <section className='viagens--primary' id='benefícios'>
           <img src={Clima} alt="Bebendo ao Pôr do Sol" />
           <Text className='box_txt'>
             <h2>O clima perfeito, no lugar perfeito</h2>
             <p>Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos não tem preço.</p>
+            <Button className='btn btn_inverted btn_light' title='Agendar' />
           </Text>
         </section>
 
@@ -54,6 +55,7 @@ export default function Main() {
           <Text className='box_txt box_txt--inverted'>
             <h2>Curta uma nova vibe entre amigos</h2>
             <p>Rachando a conta ou rachando o bico, a melhor hora pra curtir é entre amigos. Conheça nossos <span>Planos Multi.</span></p>
+            <Button className='btn btn_inverted btn_accent' title='Agendar' />
           </Text>
         </section>
 
@@ -62,6 +64,7 @@ export default function Main() {
           <Text className='box_txt box_h2'>
             <h2>Algumas experiências são inexplicáveis</h2>
             <p>Conheça as fontes termais de <span>Caldas Novas, Goiás</span>. Águas quentes, num clima sereno, relaxante e natural.</p>
+            <Button className='btn btn_inverted btn_light' title='Agendar' />
           </Text>
         </section>
 
@@ -91,7 +94,7 @@ export default function Main() {
           </div>
         </section>
 
-        <section className="form-container">
+        <section className="form-container" id='contato'>
           <h2>Fale conosco</h2>
           <Form />
         </section>

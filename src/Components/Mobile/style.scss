@@ -1,0 +1,23 @@
+.btn_mobile{
+    display: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    z-index: 8000;
+    right: 0;
+
+    @media screen and (max-width:53em){
+        display: block;
+    };
+};
+
+.sr_reader{
+    clip: rect(0 0 0 0); 
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+    width: 1px;
+};
