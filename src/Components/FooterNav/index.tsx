@@ -9,16 +9,16 @@ export default function FooterNav({children, linkA, linkB, linkC, linkD}: IFoote
         <nav>
           <ul className='footer_ul'>
             <li>
-              <a href="#">{linkA}</a>
+              <a href="https://www.linkedin.com/company/vainaweb/" target='_blank' rel="noreferrer" >{linkA}</a>
             </li>
             <li>
-              <a href="#">{linkB}</a>
+              <a href="https://www.linkedin.com/company/vainaweb/" target='_blank' rel="noreferrer" >{linkB}</a>
             </li>
             <li>
-              <a href="#">{linkC}</a>
+              <a href="https://www.linkedin.com/company/vainaweb/" target='_blank' rel="noreferrer" >{linkC}</a>
             </li>
             <li>
-              <a href="#">{linkD}</a>
+              <a href="https://www.linkedin.com/company/vainaweb/" target='_blank' rel="noreferrer" >{linkD}</a>
             </li>
           </ul>
         </nav>
