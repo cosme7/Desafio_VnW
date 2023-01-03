@@ -2,6 +2,7 @@
 <img width="600" src="src/Assets/Demo/DM_Desk.png" alt='Desktop' title="Desktop"/>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/cosme7/Desafio_VnW?color=purple&style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/cosme7/Desafio_VnW?color=purple&style=for-the-badge)
 ![GitHub top language](https://img.shields.io/github/languages/top/cosme7/Desafio_VnW?color=purple&style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/cosme7/Desafio_VnW?color=purple&style=for-the-badge)
 
